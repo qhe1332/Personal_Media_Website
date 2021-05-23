@@ -1,0 +1,107 @@
+.background 
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+    z-index: -1;
+}
+
+.generalBoard
+{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    z-index: -1;
+}
+
+a.bar
+{
+    position: relative;
+    top: 0px;
+	font-size: 20px;
+    width: 200px;
+	float: right;
+	background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.interactiveStory
+{
+    width: 2;
+    height: 800px;
+    background-color: #ff9999;
+    padding: 1%;
+    text-align: center;
+}
+
+/*text*/
+.storyTitle
+{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Segoe Script;
+    text-align: center;
+}
+
+.storyEnd
+{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Segoe Script;
+    text-align: center;
+}
+
+.story
+{
+    font-size: 30px;
+    font-family: Segoe Script;
+    text-align: left;
+    padding-left: 5%;
+
+}
+
+.story1
+{
+    font-size: 20px;
+    font-family: Segoe Script;
+    text-align: left;
+    padding-left: 5%;
+
+}
+/*picture*/
+.mainPic
+{
+    width: 70%;
+    padding-left:6%;
+}
+
+.pic1
+{
+    height:500px;
+}
+
+
+/*buttons*/
+.buttons
+{
+    position: absolute;
+    float: right;
+    right: 12%;
+    bottom: 10%;
+}
+

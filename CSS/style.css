@@ -1,0 +1,80 @@
+.background /*index only*/
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+    z-index: -1;
+}
+body.general
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 50px;
+}
+
+body.index1 /*index body*/
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10%;
+}
+
+.board /*index only*/
+{
+    width: 70%;
+    background-color: white;
+    padding: 5%;
+    opacity: .80;
+}
+
+.generalBoard
+{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    z-index: -1;
+}
+
+a.bar
+{
+    position: relative;
+    top: 0px;
+	font-size: 20px;
+    width: 200px;
+	float: right;
+	background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pic /*general photo*/
+{
+    width: 600px;
+}
+.gid /*not use?*/
+{
+    width: 400px;
+    padding: 50px;
+}
+.Cap /*bigger photo*/
+{
+    width: 100%;
+}
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.subhead
+{
+    font-size: 20px;
+    font-weight: bold;
+}
